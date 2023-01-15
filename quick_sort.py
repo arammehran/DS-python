@@ -27,3 +27,13 @@ test = [21, 4, 1, 3, 9, 20, 25, 6, 21, 14]
 size = len(test)
 quickSort(test, 0, size - 1)
 print(test)
+
+m = [None] * 4
+for i in range(len(m)):
+    if m[i]:
+        continue
+    else:
+        m[i] = 5
+        break
+print(m)
+
